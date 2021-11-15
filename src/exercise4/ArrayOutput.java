@@ -7,7 +7,7 @@ public class ArrayOutput {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
 
-    System.out.print("Ënter size: ");
+    System.out.print("Enter size: ");
     int size = input.nextInt();
 
     int[] numbers = new int[size];
