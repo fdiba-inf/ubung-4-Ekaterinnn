@@ -20,7 +20,7 @@ public class MinIndex {
     int minIndex = 0;
     for (int index = 1; index < numbers.length; index++) {
        if(numbers[index] < numbers[minIndex]) {
-         minIndex = indexp
+         minIndex = index;
       }
     }
     
